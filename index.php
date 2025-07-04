@@ -24,8 +24,8 @@ include 'partials/header.php';
     </div>
 
     <div class="mt-10 text-center">
-        <a href="quiz.php" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-full text-lg transition duration-300 transform hover:scale-105">
-            Commencer la Consultation
+        <a href="quiz.php?type=standard" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-full text-lg transition duration-300 transform hover:scale-105">
+            Commencer
         </a>
     </div>
 </div>
