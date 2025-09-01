@@ -1,10 +1,8 @@
-============================================================
-README - Serious Game : Consultation Pré-Anesthésique
-============================================================
-Version : 1.0
-Auteurs : Dr Samia Arfaoui, Résident Iheb Chagra
-URL : http://seriousgame.iheb.tn
-============================================================
+# README - Serious Game : Consultation Pré-Anesthésique
+
+- Version : 1.0
+- Auteurs : Dr Samia Arfaoui, Résident Iheb Chagra
+- URL : https://seriousgame.iheb.tn
 
 
 1. QU'EST-CE QUE C'EST ?
