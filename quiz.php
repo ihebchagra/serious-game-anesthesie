@@ -92,7 +92,6 @@ include 'partials/header.php';
                 </template>
                 <div x-show="isLocked" x-transition.opacity>
                     <!-- MODIFICATION: The old feedback is now conditional and only shows for non-correction modes -->
-                    <template x-if="!isCorrectionMode">
                         <div x-show="feedback === 'correct'" class="p-4 rounded-lg bg-green-100 border border-green-400">
                             <h3 class="font-bold text-green-800 text-xl">Correct !</h3>
                             <p class="text-green-700">Bonne décision. Le patient reste stable.</p>
@@ -103,7 +102,6 @@ include 'partials/header.php';
                             <p class="text-red-700">Ce n'était pas la bonne réponse. Le patient désature !</p>
                             <img src="assets/images/desaturation.webp" alt="Désaturation" class="mx-auto mt-2 max-h-96">
                         </div>
-                    </template>
                     <button @click="nextQuestion" class="mt-4 bg-gray-700 hover:bg-gray-900 text-white font-bold py-3 px-8 rounded-full text-lg">
                         <span x-show="currentQuestionIndex < questions.length - 1">Question Suivante →</span>
                         <span x-show="currentQuestionIndex >= questions.length - 1">Voir les résultats</span>

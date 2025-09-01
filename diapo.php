@@ -99,12 +99,12 @@ include 'partials/header.php';
                 </table>
             </div>
         
-            <div class="p-4 border-t border-gray-200">
+            <div class="border-t border-gray-200">
                 <h3 class="text-lg font-semibold text-gray-800 text-center mb-4">Illustration : Score de Mallampati</h3>
                 <!-- FIX: Made image responsive. It will take the full width of its container but not exceed 280px. -->
-                <img src="assets/images/mallampati.webp" 
+                <img src="assets/images/mallampati_diapo.webp" 
                      alt="Illustration des classes de Mallampati" 
-                     class="w-full max-w-[280px] h-auto mx-auto rounded-lg shadow-md border">
+                     class="w-full h-auto mx-auto rounded-lg shadow-md border">
             </div>
         </div>
 
@@ -258,7 +258,7 @@ include 'partials/header.php';
             </button>
         </template>
         <template x-if="currentSlide === totalSlides">
-            <a href="index.php" class="bg-green-600 hover:bg-green-800 text-white font-bold py-2 px-4 sm:px-6 rounded-full">
+            <a href="quiz.php?type=standard_with_correction" class="bg-green-600 hover:bg-green-800 text-white font-bold py-2 px-4 sm:px-6 rounded-full">
                 Réessayer
             </a>
         </template>
